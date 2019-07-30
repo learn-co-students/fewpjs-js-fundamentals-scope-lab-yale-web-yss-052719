@@ -1,8 +1,11 @@
-animal = ""
+let animal = "dog"
 
 function myAnimal() {
+  let animal = "dog"
   return animal
 }
+
+animal = "cat"
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -12,8 +15,10 @@ function yourAnimal() {
 }
 
 function add2(n) {
+  
+  let two = 2
   return n + two
 
   // Feel free to move things around!
-  two = 2
+  
 }
